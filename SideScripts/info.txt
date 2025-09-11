@@ -2,10 +2,11 @@ view_recent.py
 - View the last 5 workouts: python3 view_recent.py
 - View the last 10 workouts: python3 view_recent.py --count 10
 
+
 log_workout.sh
 How to use:
 - Save file: Save the code as log_workout.sh.
-- Make it executable: Open your terminal and run chmod +x log_workout.sh.
+- Make executable: Open your terminal and run chmod +x log_workout.sh.
 - Run the script: Execute with ./log_workout.sh.
 - View your log: View your recorded workouts by running cat workouts.log.
 
@@ -13,16 +14,19 @@ How to use:
 summarize_workouts.py
 How to use:
 - Save the file: Save the code as summarize_workouts.py.
-- Ensure you have Python 3 installed
+- Have Python 3 installed
 - Run the script: Execute with python3 summarize_workouts.py.
 - See your summary: The script will print a summary of your logged workouts directly to the terminal.
+
 
 export_to_csv.py
 How to use:
 - Export data: python3 export_to_csv.py
 - This will create a workouts.csv file in your project directory.
 
+
 backup_logs.sh
+Simple Bash script backs up workouts.log file to a compressed archive, protecting data in case of accidental deletion or corruption.
 How to use:
 - Save the file: Save the code as backup_logs.sh.
 - Make executable: chmod +x backup_logs.sh.
